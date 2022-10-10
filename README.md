@@ -1,0 +1,1 @@
+HTML registration form, with user data control and some CSS styling. Useful as a template for adding a registration feature to other apps. Built with guidance from FreeCodeCamp. 
