@@ -13,17 +13,24 @@
     <form action="#">
       <fieldset>
         <label for="first-name"
-          >First Name: <input id="first-name" type="text" name="first-name" required
+          >First Name:
+          <input id="first-name" type="text" name="first-name" required
         /></label>
         <label for="last-name"
-          >Last Name: <input id="last-name" type="text" name="last-name" required
+          >Last Name:
+          <input id="last-name" type="text" name="last-name" required
         /></label>
         <label for="email"
           >Email: <input id="email" type="email" name="email" required
         /></label>
         <label for="new-password"
           >New Password:
-          <input id="new-password" type="password" name="password" required minlength="8"
+          <input
+            id="new-password"
+            type="password"
+            name="new-password"
+            required
+            pattern="[a-z0-9]{8,}"
         /></label>
       </fieldset>
       <fieldset>
@@ -36,17 +43,26 @@
           Business Account</label
         >
         <label for="terms-and-conditions"
-          ><input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required /> I accept
-          the
+          ><input
+            id="terms-and-conditions"
+            type="checkbox"
+            name="terms-and-conditions"
+            required
+          />
+          I accept the
           <a href="https://www.freecodecamp.org/news/terms-of-service/"
             >terms and conditions</a
           ></label
         >
       </fieldset>
       <fieldset>
-        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="profile-picture"/></label>
+        <label for="profile-picture"
+          >Upload a profile picture:
+          <input id="profile-picture" type="file" name="profile-picture"
+        /></label>
         <label for="age"
-          >Input your age (years): <input id="age" type="number" min="13" max="120" name="age"
+          >Input your age (years):
+          <input id="age" type="number" min="13" max="120" name="age"
         /></label>
         <label for="referrer">
           How did you hear about us?
@@ -59,8 +75,14 @@
           </select>
         </label>
         <label for="bio">
-          Provide a bio: 
-          <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="bio"></textarea>
+          Provide a bio:
+          <textarea
+            id="bio"
+            rows="3"
+            cols="30"
+            placeholder="I like coding on the beach..."
+            name="bio"
+          ></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Submit" />
