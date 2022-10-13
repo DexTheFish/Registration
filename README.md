@@ -27,4 +27,6 @@ If a user has to choose _one_ of several options, this can be enforced by giving
 <label><input name="cat" type="radio" /> I am not a cat</label>
 ```
 
-The `<textarea>` tag acts like `<input type="text">` but it is more flexible, supporting paragraphs and some other features. Perfect for a user bio.
+The `<textarea>` tag acts like `<input type="text">` but it is more flexible, supporting paragraphs and some other features. Perfect for a user bio.  
+<br>
+With form submissions, it is useful, and good practice, to provide each submittable element with a `name` attribute.  
