@@ -20,9 +20,11 @@ html offers some form validation features such as `required` and `minlength` tha
 
 Another example is the `pattern` attribute that can specify charsets and lengths of input elements.  
 <br>
-If a user has to choose _one_ of several options, this can be enforced by giving all option inputs the same name:
+If a user has to choose _one_ of several options, this can be enforced by giving all option inputs the same name:  
 
 ```html
 <label><input name="cat" type="radio" /> I am a cat</label>
 <label><input name="cat" type="radio" /> I am not a cat</label>
 ```
+
+The `<textarea>` tag acts like `<input type="text">` but it is more flexible, supporting paragraphs and some other features. Perfect for a user bio.
