@@ -30,7 +30,7 @@
             type="password"
             name="new-password"
             required
-            pattern="[a-z0-9]{8,}"
+            pattern="[a-zA-Z0-9]{8,}"
         /></label>
       </fieldset>
       <fieldset>
@@ -50,9 +50,7 @@
             required
           />
           I accept the
-          <a href="https://www.freecodecamp.org/news/terms-of-service/"
-            >terms and conditions</a
-          ></label
+          <a href="#">terms and conditions</a></label
         >
       </fieldset>
       <fieldset>
@@ -68,9 +66,9 @@
           How did you hear about us?
           <select id="referrer" name="referrer">
             <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
+            <option value="1">News</option>
+            <option value="2">YouTube</option>
+            <option value="3">Forum</option>
             <option value="4">Other</option>
           </select>
         </label>
@@ -80,7 +78,7 @@
             id="bio"
             rows="3"
             cols="30"
-            placeholder="I like coding on the beach..."
+            placeholder="I like poetry and long walks..."
             name="bio"
           ></textarea>
         </label>
